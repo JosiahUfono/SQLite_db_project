@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/view_questions_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Questions" />
+
+    <Button
+        android:id="@+id/take_test_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Test" />
+
+
+    <Button
+        android:id="@+id/notesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VOther Stuff" />
+
+
+    <!--<GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:orientation="horizontal"
+        android:rowCount="2">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/courses_card_view"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        android:textAlignment="center"
+        app:cardElevation="4dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_library_books_24"/>
+        <TextView
+            android:id="@+id/course_card_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Courses"/>
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/course_card_view"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="8dp"
+            android:textAlignment="center"
+            app:cardElevation="4dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_baseline_library_books_24"/>
+            <TextView
+                android:id="@+id/courses_card_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Courses"/>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>-->
+
+
+</LinearLayout>
